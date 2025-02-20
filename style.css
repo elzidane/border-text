@@ -1,0 +1,142 @@
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    padding: 15%;
+    margin: 15%;
+}
+
+li:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.solid p{
+    margin: 2%;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: 1px solid rgb(118, 118, 118);
+    cursor: pointer;
+    transition: 1.5s;
+    font-weight: bold;
+}
+
+p:hover{
+    background: linear-gradient(to right, rgb(163, 0, 0), rgb(226, 68, 0));
+    color: white;
+    border: 1px solid rgb(255, 133, 133);
+}
+
+h1{
+    text-align: center;
+    padding: 3%;
+    cursor: pointer;
+}
+
+.p1{
+    background-color: red;
+    color: white;
+}
+
+.p2{
+    background-image: url('anime-moon-landscape.jpg');
+    color: white;
+}
+
+.p3{
+    background-color: brown;
+    background-position: right;
+    color: white;
+}
+
+.p4{
+    background: linear-gradient(to right, rgb(110, 221, 255), rgb(132, 0, 255));
+    color: white;
+}
+
+.p5{
+    background: linear-gradient(to top, rgb(0, 238, 255), rgb(140, 0, 255));
+    color: white;
+}
+
+.outsite{
+    border-style: outset;
+}
+
+.solid{
+    border-style: solid;
+}
+
+.dashed{
+    border-style: dashed;
+}
+
+.ridge{
+    border-style: ridge;
+}
+
+.outsite, .solid, .dashed, .ridge{
+    margin: 2%;
+    padding: 2%;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(118, 118, 118);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgb(118, 118, 118);
+}
+
+.header{
+    font-style: italic;
+    background-color: rgb(110, 1, 1);
+    color: white;
+    text-align: center;
+}
+
+.nav{
+    background-color: rgb(174, 0, 0);
+    color: white;
+    float: left;
+    height: 800px;
+    width: 10%;
+}
+
+.nav h3{
+    padding: 5%;
+    text-align: left;
+}
+
+.content{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    float: left;
+    height: 500px;
+    width: 80%;
+    text-align: left;
+}
+
+.content p{
+    align-items: center;
+    padding: 2%;
+}
+
+.footer{
+    background-color: rgb(202, 202, 202);
+    color: rgb(76, 76, 76);
+    clear: both;
+    padding: 1.5%;
+    text-align: center;
+}
+
+.footer p{
+    border: none;
+}
+
+.italic{
+    font-style: italic;
+}
